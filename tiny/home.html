@@ -1,7 +1,17 @@
 <html>
-<head><title>test</title></head>
-<body> 
-<img align="middle" src="godzilla.gif">
-Dave O'Hallaron
-</body>
+  <head>
+    <title>test</title>
+  </head>
+  <body>
+    <img align="middle" src="godzilla.gif" />
+    Dave O'Hallaron
+    <br />
+    <form action="/cgi-bin/adder" method="get">
+      <label for="fname">First num:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last num:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
